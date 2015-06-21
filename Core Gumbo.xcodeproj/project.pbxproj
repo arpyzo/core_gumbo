@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6362DAB1B36379E00330358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6362DAA1B36379E00330358 /* AppDelegate.swift */; };
+		D6362DAD1B36379E00330358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6362DAC1B36379E00330358 /* ViewController.swift */; };
+		D6362DB01B36379E00330358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6362DAE1B36379E00330358 /* Main.storyboard */; };
+		D6362DB21B36379E00330358 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6362DB11B36379E00330358 /* Images.xcassets */; };
+		D6362DB51B36379E00330358 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6362DB31B36379E00330358 /* LaunchScreen.xib */; };
+		D6362DC11B36379E00330358 /* Core_GumboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6362DC01B36379E00330358 /* Core_GumboTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6362DBB1B36379E00330358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6362D9D1B36379E00330358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6362DA41B36379E00330358;
+			remoteInfo = "Core Gumbo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6362DA51B36379E00330358 /* Core Gumbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Gumbo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6362DA91B36379E00330358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6362DAA1B36379E00330358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6362DAC1B36379E00330358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6362DAF1B36379E00330358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6362DB11B36379E00330358 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6362DB41B36379E00330358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6362DBA1B36379E00330358 /* Core GumboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core GumboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6362DBF1B36379E00330358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6362DC01B36379E00330358 /* Core_GumboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_GumboTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6362DA21B36379E00330358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6362DB71B36379E00330358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6362D9C1B36379E00330358 = {
+			isa = PBXGroup;
+			children = (
+				D6362DA71B36379E00330358 /* Core Gumbo */,
+				D6362DBD1B36379E00330358 /* Core GumboTests */,
+				D6362DA61B36379E00330358 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6362DA61B36379E00330358 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6362DA51B36379E00330358 /* Core Gumbo.app */,
+				D6362DBA1B36379E00330358 /* Core GumboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6362DA71B36379E00330358 /* Core Gumbo */ = {
+			isa = PBXGroup;
+			children = (
+				D6362DAA1B36379E00330358 /* AppDelegate.swift */,
+				D6362DAC1B36379E00330358 /* ViewController.swift */,
+				D6362DAE1B36379E00330358 /* Main.storyboard */,
+				D6362DB11B36379E00330358 /* Images.xcassets */,
+				D6362DB31B36379E00330358 /* LaunchScreen.xib */,
+				D6362DA81B36379E00330358 /* Supporting Files */,
+			);
+			path = "Core Gumbo";
+			sourceTree = "<group>";
+		};
+		D6362DA81B36379E00330358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6362DA91B36379E00330358 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6362DBD1B36379E00330358 /* Core GumboTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6362DC01B36379E00330358 /* Core_GumboTests.swift */,
+				D6362DBE1B36379E00330358 /* Supporting Files */,
+			);
+			path = "Core GumboTests";
+			sourceTree = "<group>";
+		};
+		D6362DBE1B36379E00330358 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6362DBF1B36379E00330358 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6362DA41B36379E00330358 /* Core Gumbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6362DC41B36379E00330358 /* Build configuration list for PBXNativeTarget "Core Gumbo" */;
+			buildPhases = (
+				D6362DA11B36379E00330358 /* Sources */,
+				D6362DA21B36379E00330358 /* Frameworks */,
+				D6362DA31B36379E00330358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Gumbo";
+			productName = "Core Gumbo";
+			productReference = D6362DA51B36379E00330358 /* Core Gumbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6362DB91B36379E00330358 /* Core GumboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6362DC71B36379E00330358 /* Build configuration list for PBXNativeTarget "Core GumboTests" */;
+			buildPhases = (
+				D6362DB61B36379E00330358 /* Sources */,
+				D6362DB71B36379E00330358 /* Frameworks */,
+				D6362DB81B36379E00330358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6362DBC1B36379E00330358 /* PBXTargetDependency */,
+			);
+			name = "Core GumboTests";
+			productName = "Core GumboTests";
+			productReference = D6362DBA1B36379E00330358 /* Core GumboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6362D9D1B36379E00330358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Robert Pyzalski";
+				TargetAttributes = {
+					D6362DA41B36379E00330358 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D6362DB91B36379E00330358 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D6362DA41B36379E00330358;
+					};
+				};
+			};
+			buildConfigurationList = D6362DA01B36379E00330358 /* Build configuration list for PBXProject "Core Gumbo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6362D9C1B36379E00330358;
+			productRefGroup = D6362DA61B36379E00330358 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6362DA41B36379E00330358 /* Core Gumbo */,
+				D6362DB91B36379E00330358 /* Core GumboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6362DA31B36379E00330358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6362DB01B36379E00330358 /* Main.storyboard in Resources */,
+				D6362DB51B36379E00330358 /* LaunchScreen.xib in Resources */,
+				D6362DB21B36379E00330358 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6362DB81B36379E00330358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6362DA11B36379E00330358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6362DAD1B36379E00330358 /* ViewController.swift in Sources */,
+				D6362DAB1B36379E00330358 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6362DB61B36379E00330358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6362DC11B36379E00330358 /* Core_GumboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6362DBC1B36379E00330358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6362DA41B36379E00330358 /* Core Gumbo */;
+			targetProxy = D6362DBB1B36379E00330358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6362DAE1B36379E00330358 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6362DAF1B36379E00330358 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6362DB31B36379E00330358 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6362DB41B36379E00330358 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6362DC21B36379E00330358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6362DC31B36379E00330358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6362DC51B36379E00330358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Core Gumbo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6362DC61B36379E00330358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Core Gumbo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6362DC81B36379E00330358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Core GumboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Gumbo.app/Core Gumbo";
+			};
+			name = Debug;
+		};
+		D6362DC91B36379E00330358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Core GumboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Gumbo.app/Core Gumbo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6362DA01B36379E00330358 /* Build configuration list for PBXProject "Core Gumbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6362DC21B36379E00330358 /* Debug */,
+				D6362DC31B36379E00330358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6362DC41B36379E00330358 /* Build configuration list for PBXNativeTarget "Core Gumbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6362DC51B36379E00330358 /* Debug */,
+				D6362DC61B36379E00330358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6362DC71B36379E00330358 /* Build configuration list for PBXNativeTarget "Core GumboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6362DC81B36379E00330358 /* Debug */,
+				D6362DC91B36379E00330358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6362D9D1B36379E00330358 /* Project object */;
+}
