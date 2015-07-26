@@ -13,6 +13,7 @@
 		D6362DB21B36379E00330358 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6362DB11B36379E00330358 /* Images.xcassets */; };
 		D6362DB51B36379E00330358 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6362DB31B36379E00330358 /* LaunchScreen.xib */; };
 		D6362DC11B36379E00330358 /* Core_GumboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6362DC01B36379E00330358 /* Core_GumboTests.swift */; };
+		D6362DCB1B36387A00330358 /* Draw2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6362DCA1B36387A00330358 /* Draw2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D6362DBA1B36379E00330358 /* Core GumboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core GumboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6362DBF1B36379E00330358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6362DC01B36379E00330358 /* Core_GumboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_GumboTests.swift; sourceTree = "<group>"; };
+		D6362DCA1B36387A00330358 /* Draw2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D6362DA71B36379E00330358 /* Core Gumbo */ = {
 			isa = PBXGroup;
 			children = (
+				D6362DCA1B36387A00330358 /* Draw2D.swift */,
 				D6362DAA1B36379E00330358 /* AppDelegate.swift */,
 				D6362DAC1B36379E00330358 /* ViewController.swift */,
 				D6362DAE1B36379E00330358 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				D6362DAD1B36379E00330358 /* ViewController.swift in Sources */,
 				D6362DAB1B36379E00330358 /* AppDelegate.swift in Sources */,
+				D6362DCB1B36387A00330358 /* Draw2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				D6362DC61B36379E00330358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6362DC71B36379E00330358 /* Build configuration list for PBXNativeTarget "Core GumboTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				D6362DC91B36379E00330358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
